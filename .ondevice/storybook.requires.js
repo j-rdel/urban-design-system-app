@@ -27,7 +27,7 @@ if (parameters) {
 argsEnhancers.forEach((enhancer) => addArgsEnhancer(enhancer));
 
 const getStories = () => {
-  return [];
+  return [require("../src/components/UrbButton/UrbButton.stories.tsx")];
 };
 
 configure(getStories, module, false);

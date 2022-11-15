@@ -1,43 +1,74 @@
-import styled from "styled-components/native";
-import { TOrdinal } from ".";
+import styled, {DefaultTheme} from "styled-components/native";
+import { TType, TWidth } from ".";
+import { fontFamily } from "../../utils/fontFamily";
+import { shadow } from "../../utils/shadow";
 
 interface Props {
-   type?: TOrdinal;
-   isRevered: boolean;
-   isPressed: boolean;
-   isDisabled: boolean;
-   color?: string;
+  type: TType;
+  width: TWidth,
+  isPressed: boolean;
+  isDisabled: boolean;
+  color?: string;
 }
 
 export const Container = styled.TouchableOpacity<Props>`
-  min-width: 160px;
-  width: 240px;
+  ${p => shadow(p.theme.global.ShadowLevel3)}
+  width: ${p => chooseWidth(p.width)};
   height: 50px;
-  shadowColor: #121212;
-  shadowOffset: {0, 16};
-  shadowOpacity: 0.16;
-  shadowRadius: 11.95;
-  elevation: 40;
-  border-radius: 500;
-  background-color: #000000;
-  padding: 0px;
+  border-radius: ${p => p.theme.global.BorderRadiusPill};
+  background-color: ${p => chooseBackground(p.theme, p.type, p.isPressed, p.isDisabled)};
+  padding: ${p => p.theme.global.SpacingNano};
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  border-width: 0;
-  border-color: 0;
+  border-width: ${p => p.theme.global.BorderWidthNone};
 `
 
-export const TextButton = styled.Text<Props>`
-  color: white;
-  font-size: 16;
-  font-weight: bold;
+const chooseBackground = (
+  theme: DefaultTheme,
+  type: TType,
+  isPressed: boolean,
+  isDisabled: boolean
+) => {
+
+  if (isDisabled) return theme.global.ColorNeutralLowMedium
+
+  if (theme.brandName == 'atlantis'){
+    if (type == "primary") {
+      if (isPressed) return theme.brand.BrandColorTertiaryDark
+      
+      return theme.brand.BrandColorTertiaryPure
+    } else if (type == "secondary") {
+      if (isPressed) return theme.brand.BrandColorSecondaryLight;
+      
+      return theme.brand.BrandColorSecondaryPure;
+    }
+  } else if (theme.brandName == 'orion') {
+    if (type == "primary") {
+      if (isPressed) return theme.brand.BrandColorSecondaryDark
+      
+      return theme.brand.BrandColorSecondaryPure
+    } else if (type == "secondary") {
+      if (isPressed) return theme.brand.BrandColorPrimaryLight;
+      
+      return theme.brand.BrandColorSecondaryLight;
+    }
+  }
+
+  return theme.global.ColorNeutralHighPure;;
+};
+
+const chooseWidth = (
+  width: string
+) => {
+
+  if (width == 'small') return '240px'
+
+  return '320px'
+};
+
+export const Loading = styled.View`
+   height: 24px;
+   align-items: center;
+   justify-content: center;
 `
-
-const chooseOpacity = () => {
-
-}
-
-const chooseBackground = () => {
-
-}

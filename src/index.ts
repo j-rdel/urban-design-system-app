@@ -1,5 +1,11 @@
 import UrbButton from './components/UrbButton';
 
+import { UrbContext, UrbProvider, UrbBrand, useUrb } from './hooks/UrbTheme';
+
 export {
-  UrbButton
+  UrbButton,
+  UrbContext,
+  UrbProvider, 
+  UrbBrand, 
+  useUrb
 };

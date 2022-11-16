@@ -68,9 +68,7 @@ const UrbButton = ({
       activeOpacity={1}
       >
       { loading ?
-        <S.Loading>
-          
-        </S.Loading>
+        <S.Loading />
         : <>
           {icon && <UrbIcon icon={icon} color={chooseLabelColor()}/>}
           <UrbLabel text={children} color={chooseLabelColor()} />

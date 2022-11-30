@@ -34,9 +34,9 @@ O objetivo deste trabalho foi propor o desenvolvimento de um design system open-
 
 ## Entregas
 
-[Figma](https://figma.fun/9KXGmx)
+[Figma](https://figma.fun/9KXGmx) - Design dos tokens e componentes
 
-[Storybook](https://storybook.js.org/)
+[Storybook](https://storybook.js.org/) - Documentação dos componentes
 
 ---
 

@@ -15,6 +15,9 @@ declare module 'styled-components' {
       BrandColorTertiaryLight: string;
       BrandColorTertiaryMedium: string;
       BrandColorTertiaryDark: string;
+      BrandColorGradient: Array<string>;
+      BrandColorDisabledGradient: Array<string>
+      BrandColorPressedGradient: Array<string>
     };
     global: {
       FontFamily: string;

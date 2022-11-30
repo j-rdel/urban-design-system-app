@@ -8,8 +8,6 @@ interface Props {
 
 function UrbIcon({icon, color}: Props) {
 
-  console.log(icon)
-
   return (
     <SvgXml
       xml={icon}

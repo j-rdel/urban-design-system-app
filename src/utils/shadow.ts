@@ -3,8 +3,6 @@ import { ShadowLevelType } from '../tokens/globals';
 
 function shadow(level: ShadowLevelType){
 
-  console.log(level)
-
   return css`
     shadowColor: ${level.shadowColor};
     shadowOffset: {${level.shadowOffset.width}, ${level.shadowOffset.height}};

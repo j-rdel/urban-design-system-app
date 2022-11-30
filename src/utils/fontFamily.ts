@@ -8,8 +8,6 @@ function fontFamily(
 ) {
   const fontAndroid = `${fontName.toLocaleLowerCase()}_${fontWeight}`;
 
-  console.log(fontName)
-
   if (isStyleSheet) {
     return Platform.OS === 'ios' ? fontName : fontAndroid;
   } else {

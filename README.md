@@ -42,13 +42,19 @@ O objetivo deste trabalho foi propor o desenvolvimento de um design system open-
 
 ---
 
-## Como utilizar o Urban DS
+## Como utilizar o Urban DS em projetos
 
 ---
 
-## Como rodar o projeto
+## Como instalar e rodar o repositório em sua máquina
 
 ```bash
+
+# Clone o repositório
+$ git clone https://github.com/j-rdel/urban-design-system-app.git
+
+# Entre no diretório do repositório
+$ cd urban-design-system-app
 
 # Instale todas as dependencias
 $ yarn install
@@ -66,3 +72,8 @@ $ yarn ios
 $ yarn android
 
 ```
+
+## Contato
+
+[![Linkedin Badge](https://img.shields.io/badge/-Jardel-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/jardel-urban-906519199/)](https://www.linkedin.com/in/jardel-urban-906519199/)
+[![Gmail Badge](https://img.shields.io/badge/-jardelurban3@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:jardelurban3@gmail.com)](mailto:jardelurban3@gmail.com)

@@ -15,6 +15,7 @@ O objetivo deste trabalho foi propor o desenvolvimento de um design system open-
 ## Entregas
 
 [Figma](https://figma.fun/9KXGmx)
+
 [Storybook](https://storybook.js.org/)
 
 ---

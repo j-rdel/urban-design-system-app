@@ -1,10 +1,8 @@
-# URBAN DS: Um design system open-source para aplicações móveis
-
 ![image](https://github.com/j-rdel/urban-design-system-app/blob/master/src/assets/images/Cover.png?raw=true)
 
 ## Sobre
 
-Trabalho de Conclusão de Curso - Curso Superior de Tecnologia em Análise e Desenvolvimento de Sistemas. Centro Universitário SENAI SC - Campus Florianópolis, 2022.
+URBAN, Jardel. URBAN DS: Um design system open-source para aplicações móveis. Florianópolis, 2022. Trabalho de Conclusão de Curso - Curso Superior de Tecnologia em Análise e Desenvolvimento de Sistemas. Centro Universitário SENAI SC - Campus Florianópolis, 2022.
 
 ## Resumo
 
@@ -20,10 +18,11 @@ O objetivo deste trabalho foi propor o desenvolvimento de um design system open-
 
 ---
 
-# Como utilizar o Urban DS
+## Como utilizar o Urban DS
 
+---
 
-# Como rodar o projeto
+## Como rodar o projeto
 
 ```bash
 

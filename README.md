@@ -10,13 +10,11 @@ O objetivo deste trabalho foi propor o desenvolvimento de um design system open-
 
 ---
 
-## Tokens globais
+## Tokens
+
+### Globais
 
 ![image](https://github.com/j-rdel/urban-design-system-app/blob/feature/readme/src/assets/images/GlobalTokens.png?raw=true)
-
----
-
-## Tokens de marca
 
 ### Atlantis
 

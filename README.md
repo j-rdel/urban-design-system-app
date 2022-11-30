@@ -1,49 +1,44 @@
-A starter project with react native 0.68, @storybook/react-native 6.0 beta, storybook/addon-react-native-web
+# URBAN DS: Um design system open-source para aplicações móveis
 
 ![image](https://github.com/j-rdel/urban-design-system-app/blob/master/src/assets/images/Cover.png?raw=true)
 
-# getting started
+## Sobre
 
-To get all the dependencies run
+Trabalho de Conclusão de Curso - Curso Superior de Tecnologia em Análise e Desenvolvimento de Sistemas. Centro Universitário SENAI SC - Campus Florianópolis, 2022.
 
-```
-yarn install
-```
+## Resumo
 
-To run on the web use
+O objetivo deste trabalho foi propor o desenvolvimento de um design system open-source focado em aplicações móveis, para que servisse de viés estudantil e profissional a todos os entusiastas da área. Propondo também a maturação do tópico dentro do mundo acadêmico, explicando a necessidade, importância, os ganhos e as diferenças entre o que realmente é um design system para outras bibliotecas de componentes e derivados. O trabalho foi realizado seguindo boas práticas das metodologias Double Diamond e Kanban, seguindo dicas de grandes empresas já consolidadas no mercado. Para isso foi separado o trabalho em dois processos entre design e desenvolvimento, sendo a primeira etapa para a elaboração dos elementos da estrutura necessários para uma primeira versão de um design system funcional, entregando os componentes e tokens a serem desenvolvidos na segunda etapa. Na segunda etapa, foi desenvolvido todo o projeto utilizando tecnologias de suporte multi plataforma para aplicações móveis e disponibilizado o repositório do código e uma documentação para utilização do design system. Importante ressaltar que o trabalho foi inteiramente desenvolvido de acordo com uma pesquisa bibliográfica por artigos recentes e autores de relevância dentro da comunidade de desenvolvedores e designers.
 
-```
-yarn storybook
-```
+---
 
-To run on ios or android
+## Entregas
 
-```
-yarn start
-```
+[Figma](https://figma.fun/9KXGmx)
+[Storybook](https://storybook.js.org/)
 
-in another terminal run
+---
 
-```
-yarn ios
-```
+# Como utilizar o Urban DS
 
-or
 
-```
-yarn android
-```
+# Como rodar o projeto
 
-If you add new stories on the native (ondevice version) you either need to have the watcher running or run the stories loader
+```bash
 
-To update the stories one time
+# Instale todas as dependencias
+$ yarn install
 
-```
-yarn update-stories
-```
+# Instale os pods
+$ cd ios
+$ pod install
 
-To watch the stories files
+# Para rodar o storybook na web utilize
+$ yarn storybook
 
-```
-yarn storybook-watcher
+# Para rodar no android ou ios utilize
+$ yarn ios
+# or
+$ yarn android
+
 ```

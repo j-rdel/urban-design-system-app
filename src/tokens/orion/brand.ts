@@ -10,6 +10,8 @@ export const BrandColorTertiaryPure:string = "#8C2B86";
 export const BrandColorTertiaryLight:string = "#D984D3";
 export const BrandColorTertiaryMedium:string = "#A01C97";
 export const BrandColorTertiaryDark:string = "#591C55";
-// export const BrandColorGradient:Array<string> = ["#000000"];
+export const BrandColorGradient:Array<string> = ["#341C8C", "#A150F2", '#8C2B86'];
+export const BrandColorPressedGradient:Array<string> = ["#846CD9", '#C79AF4', '#D984D3'];
+export const BrandColorDisabledGradient:Array<string> = ["#E0E0E0", "#E0E0E0", '#E0E0E0'];
 
 // gradient(84.04deg, #341C8C 0%, #A150F2 48.71%, #8C2B86 100%)

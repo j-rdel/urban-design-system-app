@@ -28,6 +28,7 @@
     "react-native-linear-gradient": "^2.6.2",
     "react-native-svg": "^13.5.0",
     "react-native-web": "^0.17.7",
+    "react-native-web-linear-gradient": "^1.1.2",
     "styled-components": "^5.3.6"
   },
   "devDependencies": {

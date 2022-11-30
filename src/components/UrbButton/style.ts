@@ -1,6 +1,5 @@
 import styled, {DefaultTheme} from "styled-components/native";
 import { TType, TWidth } from ".";
-import { fontFamily } from "../../utils/fontFamily";
 import { shadow } from "../../utils/shadow";
 
 interface Props {
@@ -22,6 +21,12 @@ export const Container = styled.TouchableOpacity<Props>`
   align-items: center;
   flex-direction: row;
   border-width: ${p => p.theme.global.BorderWidthNone};
+`
+
+export const Loading = styled.View`
+   height: 24px;
+   align-items: center;
+   justify-content: center;
 `
 
 const chooseBackground = (
@@ -66,9 +71,3 @@ const chooseWidth = (
 
   return '320px'
 };
-
-export const Loading = styled.View`
-   height: 24px;
-   align-items: center;
-   justify-content: center;
-`

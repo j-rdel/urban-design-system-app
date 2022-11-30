@@ -10,11 +10,21 @@ O objetivo deste trabalho foi propor o desenvolvimento de um design system open-
 
 ---
 
-## Tokens
+## Tokens globais
 
 ![image](https://github.com/j-rdel/urban-design-system-app/blob/feature/readme/src/assets/images/GlobalTokens.png?raw=true)
 
-![image](https://github.com/j-rdel/urban-design-system-app/blob/feature/readme/src/assets/images/BrandTokens.png?raw=true)
+---
+
+## Tokens de marca
+
+### Atlantis
+
+![image](https://github.com/j-rdel/urban-design-system-app/blob/feature/readme/src/assets/images/AtlantisBrandTokens.png?raw=true)
+
+### Orion
+
+![image](https://github.com/j-rdel/urban-design-system-app/blob/feature/readme/src/assets/images/OrionBrandTokens.png?raw=true)
 
 ---
 

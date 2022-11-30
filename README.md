@@ -12,8 +12,6 @@ O objetivo deste trabalho foi propor o desenvolvimento de um design system open-
 
 ## Tokens
 
-![image](https://github.com/j-rdel/urban-design-system-app/blob/master/src/assets/images/TokensCover.png?raw=true)
-
 ![image](https://github.com/j-rdel/urban-design-system-app/blob/feature/readme/src/assets/images/GlobalTokens.png?raw=true)
 
 ![image](https://github.com/j-rdel/urban-design-system-app/blob/feature/readme/src/assets/images/BrandTokens.png?raw=true)
@@ -21,8 +19,6 @@ O objetivo deste trabalho foi propor o desenvolvimento de um design system open-
 ---
 
 ## Componentes
-
-![image](https://github.com/j-rdel/urban-design-system-app/blob/feature/readme/src/assets/images/ComponentsCover.png?raw=true)
 
 ![image](https://github.com/j-rdel/urban-design-system-app/blob/feature/readme/src/assets/images/Components.png?raw=true)
 

@@ -10,6 +10,12 @@ O objetivo deste trabalho foi propor o desenvolvimento de um design system open-
 
 ---
 
+![image](https://github.com/j-rdel/urban-design-system-app/blob/master/src/assets/images/TokensCover.png?raw=true)
+
+![image](https://github.com/j-rdel/urban-design-system-app/blob/feature/readme/src/assets/images/GlobalTokens.png?raw=true)
+
+---
+
 ## Entregas
 
 [Figma](https://figma.fun/9KXGmx)

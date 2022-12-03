@@ -1,6 +1,5 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import LinearGradient from 'react-native-linear-gradient';
-import { useUrb } from '../../../hooks/UrbTheme';
 
 export type TType = 'primary' | 'secondary'
 export type TWidth = 'default' | 'small'

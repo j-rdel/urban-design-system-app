@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import { AccessibilityProps, TouchableOpacityProps } from "react-native";
 import { useUrb } from '../../hooks/UrbTheme';
 import UrbLabel from '../UrbLabel';

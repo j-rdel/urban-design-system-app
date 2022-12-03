@@ -1,7 +1,7 @@
 {
-  "name": "@urban-design-system-app/lib-core",
-  "version": "0.0.1",
-  "private": true,
+  "name": "urban-design-system-app",
+  "version": "1.0.3",
+  "private": false,
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
@@ -12,8 +12,11 @@
     "prestart": "yarn update-stories",
     "storybook-watcher": "sb-rn-watcher --config-path .ondevice",
     "storybook": "start-storybook -p 6006",
-    "build": "rm -rf dist && tsc --project tsconfig-build.json && yarn copy-files-fonts && yarn copy-files-types",
-    "build-storybook": "build-storybook"
+    "build": "rm -rf dist && tsc --project tsconfig-build.json && npm run copy-files-fonts && npm run copy-files-types",
+    "build-storybook": "build-storybook",
+    "copy-files-fonts": "copyfiles --up 1 src/assets/fonts/* dist/",
+    "copy-files-types": "copyfiles --up 1 src/@types/style.d.ts dist/",
+    "chromatic": "npx chromatic"
   },
   "dependencies": {
     "@react-native-async-storage/async-storage": "^1.17.3",
@@ -55,6 +58,8 @@
     "babel-jest": "^26.6.3",
     "babel-loader": "^8.2.4",
     "babel-plugin-react-native-web": "^0.17.7",
+    "chromatic": "^6.11.4",
+    "copyfiles": "^2.4.1",
     "eslint": "^7.32.0",
     "jest": "^26.6.3",
     "metro-react-native-babel-preset": "^0.67.0",
@@ -71,5 +76,10 @@
       "json",
       "node"
     ]
-  }
+  },
+  "files": [
+    "dist"
+  ],
+  "readme": "ERROR: No README data found!",
+  "_id": "urban-design-system-app@1.0.3"
 }

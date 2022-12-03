@@ -12,7 +12,9 @@ O objetivo deste trabalho foi propor o desenvolvimento de um design system open-
 
 [Figma](https://figma.fun/9KXGmx) - Design dos tokens e componentes
 
-[Storybook](https://storybook.js.org/) - Documentação dos componentes
+[Storybook](https://638bac8a6de7967b8d29c3c1-gqptzlpwvj.chromatic.com/) - Documentação dos componentes
+
+[NPM](https://www.npmjs.com/package/urban-design-system-app?activeTab=readme) - Pacote instalavel para React Native
 
 ---
 
@@ -44,6 +46,45 @@ O objetivo deste trabalho foi propor o desenvolvimento de um design system open-
 
 ## Como utilizar o Urban DS em projetos
 
+```bash
+
+# Certifique-se de utilizar a versão 17.0.2 do React
+
+# Instale o pacote npm
+$ npm i urban-design-system
+
+# Instale os pods
+$ cd ios
+$ pod install
+
+# Exemplo de utilização
+
+import React from 'react';
+import * as S from './style'
+
+import {UrbProvider, UrbBrand, UrbButton} from 'urban-design-system/dist/index';
+
+const App = () => {
+  # Para utilizar os brand trokens da marca Orion utilize UrbBrand.orion.Default no provider
+
+  return (
+    <UrbProvider theme={UrbBrand.atlantis.Default}>
+      <View>
+        <UrbButton width='small'>
+          Exemplo de botão pequeno
+        </UrbButton>
+        <UrbGradientButton>
+          Exemplo botão com gradiente
+        </UrbGradientButton> 
+      </View>
+    </UrbProvider>
+  );
+}
+
+export default App;
+
+```
+
 ---
 
 ## Como instalar e rodar o repositório em sua máquina
@@ -57,19 +98,19 @@ $ git clone https://github.com/j-rdel/urban-design-system-app.git
 $ cd urban-design-system-app
 
 # Instale todas as dependencias
-$ yarn install
+$ npm install
 
 # Instale os pods
 $ cd ios
 $ pod install
 
 # Para rodar o storybook na web utilize
-$ yarn storybook
+$ npm run storybook
 
 # Para rodar no android ou ios utilize
-$ yarn ios
+$ npm run ios
 # or
-$ yarn android
+$ npm run android
 
 ```
 

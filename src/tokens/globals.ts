@@ -1,4 +1,4 @@
-interface ShadowLevelType {
+export interface ShadowLevelType {
     shadowColor: string,
     shadowOffset: {
         width: number,

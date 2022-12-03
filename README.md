@@ -57,7 +57,7 @@ $ npm i urban-design-system
 $ cd ios
 $ pod install
 
-# Exemplo de utilização
+# Exemplo de utilização App.tsx
 
 import React from 'react';
 import * as S from './style'

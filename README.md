@@ -62,7 +62,7 @@ $ pod install
 import React from 'react';
 import * as S from './style'
 
-import {UrbProvider, UrbBrand, UrbButton} from 'urban-design-system/dist/index';
+import {UrbProvider, UrbBrand, UrbButton, UrbGradientButton} from 'urban-design-system/dist/index';
 
 const App = () => {
   # Para utilizar os brand trokens da marca Orion utilize UrbBrand.orion.Default no provider

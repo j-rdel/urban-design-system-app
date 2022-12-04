@@ -29,7 +29,8 @@ argsEnhancers.forEach((enhancer) => addArgsEnhancer(enhancer));
 const getStories = () => {
   return [
     require("../src/components/UrbButton/UrbButton.stories.tsx"),
-    require("../src/components/UrbGradientButton/UrbGradientButton.stories.tsx")
+    require("../src/components/UrbGradientButton/UrbGradientButton.stories.tsx"),
+    require("../src/components/UrbTypography/UrbTypography.stories.tsx")
   ];
 };
 

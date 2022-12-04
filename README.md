@@ -12,7 +12,7 @@ O objetivo deste trabalho foi propor o desenvolvimento de um design system open-
 
 [Figma](https://figma.fun/9KXGmx) - Design dos tokens e componentes
 
-[Storybook](https://638bac8a6de7967b8d29c3c1-gqptzlpwvj.chromatic.com/) - Documentação dos componentes
+[Storybook](https://638bac8a6de7967b8d29c3c1-sgggctgzmg.chromatic.com/) - Documentação dos componentes
 
 [NPM](https://www.npmjs.com/package/urban-design-system-app?activeTab=readme) - Pacote instalavel para React Native
 
